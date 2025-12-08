@@ -21,7 +21,8 @@
     "redux": "^5.0.1",
     "sass": "^1.92.1",
     "uuid": "^13.0.0",
-    "uuid4": "^2.0.3"
+    "uuid4": "^2.0.3",
+    "react-simple-wysiwyg": "^3.4.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
