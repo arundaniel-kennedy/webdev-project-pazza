@@ -1,0 +1,17 @@
+[
+  { "label": "hw1", "count": 21 },
+  { "label": "hw2", "count": 4 },
+  { "label": "hw3", "count": 2 },
+  { "label": "hw4", "count": 3 },
+  { "label": "hw5" },
+  { "label": "hw6" },
+  { "label": "hw7" },
+  { "label": "hw8" },
+  { "label": "hw9" },
+  { "label": "hw10" },
+  { "label": "project", "count": 1 },
+  { "label": "exam", "count": 3 },
+  { "label": "logistics", "count": 6 },
+  { "label": "other", "count": 22 },
+  { "label": "office_hours", "count": 170 }
+]
