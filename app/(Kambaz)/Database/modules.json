@@ -1,0 +1,650 @@
+[
+  {
+    "_id": "M101",
+    "name": "Introduction to Rocket Propulsion",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "RS101",
+    "editing": true,
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Rocketry",
+        "description": "A brief history of rocketry and space exploration.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "Rocket Propulsion Fundamentals",
+        "description": "Basic principles of rocket propulsion.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Rocket Engine Types",
+        "description": "Overview of different types of rocket engines.",
+        "module": "M101"
+      }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Fuel and Combustion",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "RS101",
+    "editing": true,
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Rocket Fuel",
+        "description": "Overview of different types of rocket fuels.",
+        "module": "M102"
+      },
+      {
+        "_id": "L202",
+        "name": "Combustion Processes",
+        "description": "Understanding combustion processes and efficiency.",
+        "module": "M102"
+      },
+      {
+        "_id": "L203",
+        "name": "Combustion Instability",
+        "description": "Understanding combustion instability and mitigation.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Nozzle Design",
+    "description": "Principles of rocket nozzle design and performance optimization.",
+    "course": "RS101",
+    "editing": true,
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Nozzle Design",
+        "description": "Overview of different types of rocket nozzles.",
+        "module": "M103"
+      },
+      {
+        "_id": "L302",
+        "name": "Nozzle Performance",
+        "description": "Understanding nozzle performance and efficiency.",
+        "module": "M103"
+      },
+      {
+        "_id": "L303",
+        "name": "Nozzle Optimization",
+        "description": "Optimizing nozzle design for specific applications.",
+        "module": "M103"
+      }
+    ]
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "RS102",
+    "editing": true,
+    "lessons": [
+      {
+        "_id": "L401",
+        "name": "Fluid Properties & Flow Regimes",
+        "description": "Continuum hypothesis, Reynolds number, laminar vs. turbulent.",
+        "module": "M201"
+      },
+      {
+        "_id": "L402",
+        "name": "Bernoulli & Conservation Laws",
+        "description": "Mass, momentum, and energy equations; Bernoulli in context.",
+        "module": "M201"
+      },
+      {
+        "_id": "L403",
+        "name": "Boundary Layers & Separation",
+        "description": "Shear, growth, separation criteria and control.",
+        "module": "M201"
+      }
+    ]
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "RS102",
+    "editing": true,
+    "lessons": [
+      {
+        "_id": "L404",
+        "name": "Compressibility Effects",
+        "description": "Mach number regimes and implications.",
+        "module": "M202"
+      },
+      {
+        "_id": "L405",
+        "name": "Shock Waves & Expansion Fans",
+        "description": "Normal/oblique shocks, Prandtl\u2013Meyer expansions.",
+        "module": "M202"
+      },
+      {
+        "_id": "L406",
+        "name": "Transonic & Supersonic Airfoils",
+        "description": "Critical Mach number, drag divergence, area ruling.",
+        "module": "M202"
+      }
+    ]
+  },
+  {
+    "_id": "M203",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "RS102",
+    "editing": true,
+    "lessons": [
+      {
+        "_id": "L407",
+        "name": "Convective Heating Basics",
+        "description": "Stagnation point heating, recovery temperature.",
+        "module": "M203"
+      },
+      {
+        "_id": "L408",
+        "name": "Thermal Protection Materials",
+        "description": "Ablators, ceramics, reusable TPS, trade-offs.",
+        "module": "M203"
+      },
+      {
+        "_id": "L409",
+        "name": "Heating Estimation Methods",
+        "description": "Engineering correlations and sizing calculations.",
+        "module": "M203"
+      }
+    ]
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "RS103",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L501",
+        "name": "Loads & Margins of Safety",
+        "description": "Static/dynamic loads, margins, factors of safety.",
+        "module": "M301"
+      },
+      {
+        "_id": "L502",
+        "name": "Materials: Al-Li & CFRP",
+        "description": "Selection criteria, fatigue, microcracking, outgassing.",
+        "module": "M301"
+      },
+      {
+        "_id": "L503",
+        "name": "Finite Element Basics",
+        "description": "Meshing, boundary conditions, verification vs. validation.",
+        "module": "M301"
+      }
+    ]
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "RS103",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L504",
+        "name": "Two-Body Orbits",
+        "description": "Keplerian elements, conic sections.",
+        "module": "M302"
+      },
+      {
+        "_id": "L505",
+        "name": "Delta\u2011V & Hohmann Transfers",
+        "description": "Impulse maneuvers, Lambert problems (intro).",
+        "module": "M302"
+      },
+      {
+        "_id": "L506",
+        "name": "Perturbations & Station\u2011Keeping",
+        "description": "J2 effects, drag, SRP; station-keeping strategies.",
+        "module": "M302"
+      }
+    ]
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "RS103",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L507",
+        "name": "Power, Thermal, ADCS",
+        "description": "Subsystem trades and interfaces.",
+        "module": "M303"
+      },
+      {
+        "_id": "L508",
+        "name": "Fault Management (FDIR)",
+        "description": "Detection, isolation, recovery patterns.",
+        "module": "M303"
+      },
+      {
+        "_id": "L509",
+        "name": "Integration & Test (I&T)",
+        "description": "AIV plans, environmental testing, verification.",
+        "module": "M303"
+      }
+    ]
+  },
+  {
+    "_id": "M401",
+    "name": "Structure & Bonding in Organic Molecules",
+    "description": "Orbitals, resonance, functional groups, stereochemistry.",
+    "course": "RS104",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L601",
+        "name": "Hybridization & Resonance",
+        "description": "sp, sp2, sp3, resonance contributors.",
+        "module": "M401"
+      },
+      {
+        "_id": "L602",
+        "name": "Functional Groups Overview",
+        "description": "Alkanes to amides; reactivity patterns.",
+        "module": "M401"
+      },
+      {
+        "_id": "L603",
+        "name": "Stereochemistry Basics",
+        "description": "R/S, E/Z, chirality and optical activity.",
+        "module": "M401"
+      }
+    ]
+  },
+  {
+    "_id": "M402",
+    "name": "Reaction Mechanisms I",
+    "description": "Polar reactions: substitution and elimination.",
+    "course": "RS104",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L604",
+        "name": "SN1 vs SN2",
+        "description": "Rate laws, solvents, sterics, leaving groups.",
+        "module": "M402"
+      },
+      {
+        "_id": "L605",
+        "name": "E1 vs E2",
+        "description": "Competition with substitution; Zaitsev vs Hofmann.",
+        "module": "M402"
+      },
+      {
+        "_id": "L606",
+        "name": "Carbocation Rearrangements",
+        "description": "Hydride and alkyl shifts; stability trends.",
+        "module": "M402"
+      }
+    ]
+  },
+  {
+    "_id": "M403",
+    "name": "Spectroscopy & Structure Elucidation",
+    "description": "IR, NMR, MS for identifying unknown compounds.",
+    "course": "RS104",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L607",
+        "name": "IR Spectroscopy",
+        "description": "Key stretches; functional group identification.",
+        "module": "M403"
+      },
+      {
+        "_id": "L608",
+        "name": "NMR Fundamentals",
+        "description": "1H/13C, splitting, chemical shift, integration.",
+        "module": "M403"
+      },
+      {
+        "_id": "L609",
+        "name": "Mass Spectrometry",
+        "description": "Molecular ion, fragmentation patterns.",
+        "module": "M403"
+      }
+    ]
+  },
+  {
+    "_id": "M501",
+    "name": "Coordination Chemistry Fundamentals",
+    "description": "Ligands, coordination numbers, geometry, isomerism.",
+    "course": "RS105",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L701",
+        "name": "Ligands & Coordination Numbers",
+        "description": "Monodentate vs polydentate; chelation.",
+        "module": "M501"
+      },
+      {
+        "_id": "L702",
+        "name": "Crystal Field Theory",
+        "description": "d\u2011orbital splitting, spectrochemical series.",
+        "module": "M501"
+      },
+      {
+        "_id": "L703",
+        "name": "Electronic Spectra & Magnetism",
+        "description": "Tanabe\u2013Sugano, spin states, moments.",
+        "module": "M501"
+      }
+    ]
+  },
+  {
+    "_id": "M502",
+    "name": "Organometallic Chemistry",
+    "description": "Metal\u2013carbon bonding and catalytic cycles.",
+    "course": "RS105",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L704",
+        "name": "Metal Carbonyls & 18\u2011Electron Rule",
+        "description": "Backbonding and stability.",
+        "module": "M502"
+      },
+      {
+        "_id": "L705",
+        "name": "Oxidative Addition & Reductive Elimination",
+        "description": "Elementary steps in catalysis.",
+        "module": "M502"
+      },
+      {
+        "_id": "L706",
+        "name": "Cross\u2011Coupling Catalysis",
+        "description": "Suzuki, Heck, Negishi mechanisms.",
+        "module": "M502"
+      }
+    ]
+  },
+  {
+    "_id": "M503",
+    "name": "Bioinorganic & Materials",
+    "description": "Metalloproteins, solid\u2011state structures, photochemistry.",
+    "course": "RS105",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L707",
+        "name": "Metalloproteins",
+        "description": "Hemoglobin, cytochromes, metalloenzymes.",
+        "module": "M503"
+      },
+      {
+        "_id": "L708",
+        "name": "Solid\u2011State Structures",
+        "description": "Lattices, defects, band models (intro).",
+        "module": "M503"
+      },
+      {
+        "_id": "L709",
+        "name": "Inorganic Photochemistry",
+        "description": "Ligand field effects, MLCT/LMCT.",
+        "module": "M503"
+      }
+    ]
+  },
+  {
+    "_id": "M601",
+    "name": "Thermodynamics",
+    "description": "Laws, state functions, and chemical equilibrium.",
+    "course": "RS106",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L801",
+        "name": "Zeroth\u2013Second Laws",
+        "description": "Temperature, enthalpy, entropy, spontaneity.",
+        "module": "M601"
+      },
+      {
+        "_id": "L802",
+        "name": "Gibbs Free Energy",
+        "description": "Chemical potential, activities, reaction spontaneity.",
+        "module": "M601"
+      },
+      {
+        "_id": "L803",
+        "name": "Phase Equilibria",
+        "description": "Clapeyron equation, phase diagrams.",
+        "module": "M601"
+      }
+    ]
+  },
+  {
+    "_id": "M602",
+    "name": "Kinetics & Reaction Dynamics",
+    "description": "Rates, mechanisms, and catalysis.",
+    "course": "RS106",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L804",
+        "name": "Rate Laws & Mechanisms",
+        "description": "Method of initial rates, steady\u2011state approx.",
+        "module": "M602"
+      },
+      {
+        "_id": "L805",
+        "name": "Transition State Theory",
+        "description": "Energy landscapes, Eyring equation.",
+        "module": "M602"
+      },
+      {
+        "_id": "L806",
+        "name": "Catalysis & Enzymes",
+        "description": "Michaelis\u2013Menten, heterogeneous catalysis.",
+        "module": "M602"
+      }
+    ]
+  },
+  {
+    "_id": "M603",
+    "name": "Quantum Chemistry",
+    "description": "Wavefunctions, operators, and simple models.",
+    "course": "RS106",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L807",
+        "name": "Particle in a Box",
+        "description": "Quantization and selection rules (intro).",
+        "module": "M603"
+      },
+      {
+        "_id": "L808",
+        "name": "Hydrogen Atom & Orbitals",
+        "description": "n, l, m quantum numbers; shapes.",
+        "module": "M603"
+      },
+      {
+        "_id": "L809",
+        "name": "Rotational & Vibrational Spectra",
+        "description": "Rigid rotor and harmonic oscillator.",
+        "module": "M603"
+      }
+    ]
+  },
+  {
+    "_id": "M701",
+    "name": "Tengwar: Phonology & Orthography",
+    "description": "Letters, tehtar (diacritics), and writing modes.",
+    "course": "RS107",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L901",
+        "name": "Letters & Diacritics",
+        "description": "Tengwar inventory and tehtar usage.",
+        "module": "M701"
+      },
+      {
+        "_id": "L902",
+        "name": "Mode Variants",
+        "description": "Quenya vs Sindarin modes and conventions.",
+        "module": "M701"
+      },
+      {
+        "_id": "L903",
+        "name": "Transliteration Practice",
+        "description": "Write names and phrases using Tengwar.",
+        "module": "M701"
+      }
+    ]
+  },
+  {
+    "_id": "M702",
+    "name": "Quenya Grammar",
+    "description": "Noun cases, verbs, and syntax of Quenya.",
+    "course": "RS107",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L904",
+        "name": "Noun Cases & Agreement",
+        "description": "Case endings and concord.",
+        "module": "M702"
+      },
+      {
+        "_id": "L905",
+        "name": "Verb Conjugations & Tense",
+        "description": "Finite and non\u2011finite forms.",
+        "module": "M702"
+      },
+      {
+        "_id": "L906",
+        "name": "Syntax & Word Order",
+        "description": "Clause structure and emphasis.",
+        "module": "M702"
+      }
+    ]
+  },
+  {
+    "_id": "M703",
+    "name": "Sindarin Grammar",
+    "description": "Mutations, pluralization, and everyday phrases.",
+    "course": "RS107",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L907",
+        "name": "Consonant Mutations",
+        "description": "Lenition and nasalization patterns.",
+        "module": "M703"
+      },
+      {
+        "_id": "L908",
+        "name": "Plurals & Compounds",
+        "description": "I\u2011affection and compound nouns.",
+        "module": "M703"
+      },
+      {
+        "_id": "L909",
+        "name": "Everyday Phrases",
+        "description": "Constructing simple sentences.",
+        "module": "M703"
+      }
+    ]
+  },
+  {
+    "_id": "M801",
+    "name": "Cultures of Middle\u2011earth",
+    "description": "Values, etiquette, and customs across peoples.",
+    "course": "RS108",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L1001",
+        "name": "Elves, Dwarves, and Men",
+        "description": "Histories, values, and etiquette.",
+        "module": "M801"
+      },
+      {
+        "_id": "L1002",
+        "name": "The Shire: Hobbit Customs",
+        "description": "Hospitality, gifts, and celebrations.",
+        "module": "M801"
+      },
+      {
+        "_id": "L1003",
+        "name": "Rohan & Gondor Protocols",
+        "description": "Courtly conduct and heraldry.",
+        "module": "M801"
+      }
+    ]
+  },
+  {
+    "_id": "M802",
+    "name": "Conflict Resolution & Negotiation",
+    "description": "Mediation frameworks and historic cases.",
+    "course": "RS108",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L1004",
+        "name": "Mediation Techniques",
+        "description": "Interests vs positions; Council of Elrond.",
+        "module": "M802"
+      },
+      {
+        "_id": "L1005",
+        "name": "Treaties & Oaths",
+        "description": "Oath of Eorl; drafting durable accords.",
+        "module": "M802"
+      },
+      {
+        "_id": "L1006",
+        "name": "Nonverbal Signals Across Species",
+        "description": "Reading cues in cross\u2011cultural contexts.",
+        "module": "M802"
+      }
+    ]
+  },
+  {
+    "_id": "M803",
+    "name": "Strategy & Ethics",
+    "description": "Alliance strategy and post\u2011war reconciliation.",
+    "course": "RS108",
+    "editing": false,
+    "lessons": [
+      {
+        "_id": "L1007",
+        "name": "Alliances with the Dead",
+        "description": "Ethical considerations: Paths of the Dead.",
+        "module": "M803"
+      },
+      {
+        "_id": "L1008",
+        "name": "Wartime Diplomacy",
+        "description": "Ents, Eagles, and atypical stakeholders.",
+        "module": "M803"
+      },
+      {
+        "_id": "L1009",
+        "name": "Reconstruction & Reconciliation",
+        "description": "Justice vs mercy; rebuilding trust.",
+        "module": "M803"
+      }
+    ]
+  }
+]

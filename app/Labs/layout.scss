@@ -1,0 +1,15 @@
+.labs-layout-container {
+    display: flex;
+    height: 100vh;
+
+    .table-contents-wrapper {
+        width: 20%;
+        height: 100%;
+    }
+    .lab-content {
+        width: 80%;
+        height: 100%;
+        overflow-y: scroll;
+        padding-left: 30px;
+    }
+}
