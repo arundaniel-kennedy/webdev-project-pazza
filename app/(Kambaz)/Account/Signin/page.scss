@@ -1,0 +1,15 @@
+#wd-signin-screen {
+    display: flex;
+    gap: 10px;
+
+    .content-left {
+        min-width: 400px;
+        width: 40%;
+        padding-right: 20px;
+        border-right: 1px solid lightgray;
+    }
+    .content-right {
+        width: auto;
+        padding-left: 10px;
+    }
+}
