@@ -1,0 +1,3 @@
+[submodule "app/Pazza"]
+	path = app/Pazza
+	url = https://github.com/arundaniel-kennedy/kambaz-pazza-next-js.git
