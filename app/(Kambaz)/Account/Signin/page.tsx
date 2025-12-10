@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { redirect } from "next/dist/client/components/navigation";
+import { redirect, useSearchParams } from "next/navigation";
 import { setCurrentUser } from "../reducer";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
@@ -14,6 +14,9 @@ export default function Signin() {
     username: "iron_man",
     password: "stark123",
   });
+  const searchParams = useSearchParams();
+  const redirectUrl = searchParams.get('redirect');
+
   const dispatch = useDispatch();
   const signin = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -23,7 +26,11 @@ export default function Signin() {
     } else {
       if (!user) return;
       dispatch(setCurrentUser(user));
-      redirect("/Dashboard");
+      if(redirectUrl) {
+        redirect(redirectUrl)
+      } else {
+        redirect("/Dashboard");
+      }
     }
   };
 
